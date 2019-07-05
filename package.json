@@ -9,9 +9,9 @@
   "homepage": "https://github.com/luizfer/julian-date#readme",
   "dependencies": {},
   "devDependencies": {
-    "rollup": "^0.63.4",
-    "rollup-plugin-commonjs": "^9.1.0",
-    "rollup-plugin-node-resolve": "^3.0.0"
+    "rollup": "0.63.4",
+    "rollup-plugin-commonjs": "9.1.0",
+    "rollup-plugin-node-resolve": "3.0.0"
   },
   "main": "dist/julian-date.cjs.js",
   "module": "dist/julian-date.esm.js",

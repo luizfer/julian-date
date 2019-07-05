@@ -1,26 +1,26 @@
-# Point In Geometry
-> Easy way to test points in circles and polygons, perfect for maps
+# Julian Date
+> Easy way to convert date julia to jsdate
 
 [![Downloads Stats][npm-downloads]][npm-url]
 
 ## Installation
 
 ```sh
-npm install point-in-geometry --save
+npm install julian-date --save
 ```
 
 ## Usage example
 
 ```
-import { PointInCircle } from 'point-in-geometry';
+import { DateToJulian } from 'julian-date';
 
-PointInCircle([0, 1], [1, 1], 1);
+DateToJulian('2019-07-05');
 
 OR
 
-import { PointInPolygon } from 'point-in-geometry';
+import { JulianToDate } from 'julian-date';
 
-PointInPolygon([0, 1], [[0, 2], [2, 1], [1, 3], [3, 1]]);
+JulianToDate('116302');
 
 ```
 
