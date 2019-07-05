@@ -1,0 +1,28 @@
+{
+  "name": "julian-date",
+  "version": "0.0.1",
+  "description": "> Easy way to convert date julia to jsdate",
+  "source": "src",
+  "repository": "git+https://github.com/luizfer/julian-date.git",
+  "author": "Luiz Fernando <luizfernandofernandes.lf@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/luizfer/julian-date#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^0.63.4",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "main": "dist/julian-date.cjs.js",
+  "module": "dist/julian-date.esm.js",
+  "browser": "dist/julian-date.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ]
+}
