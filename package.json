@@ -1,5 +1,5 @@
 {
-  "name": "juliadate",
+  "name": "julian-to-date",
   "version": "0.0.1",
   "description": "> Easy way to convert date julia to jsdate",
   "source": "src",
